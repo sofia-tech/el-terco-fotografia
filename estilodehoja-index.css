@@ -1,0 +1,109 @@
+
+
+body {
+	background-image: url(imagenes/fondos/fondo2.jpg);
+	/*la mejor es fondo2
+	foto4-gratis--->https://www.pexels.com/es-es/foto/vista-panoramica-de-las-montanas-rocosas-durante-la-noche-1624438/
+	foto5-gratis--->https://www.pexels.com/es-es/foto/madera-modelo-textura-marron-326311/
+	fondo6-gratis--->https://www.pexels.com/es-es/foto/universo-azul-956981/*/
+	
+	/*background-size: 100% 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;*/
+}
+
+.banner-emiliano {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 1px;
+	background-image: url(banner4.jpg);
+	background-size: 100% 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: auto;
+	/*background: linear-gradient(45deg, #a6a4cc 0%, rgb(206 215 228 / 25%) 51%);*/
+}
+
+.banner-emiliano h1 {
+	color: white;
+	text-shadow: 3px 3px 2px black;
+	/*text-shadow: 3px 3px 2px red;*/
+}
+
+.banner-emiliano p {
+	color: white;
+	text-shadow: 4px 4px 2px black;
+	/*text-shadow: 3px 3px 2px red;*/
+}
+
+.seccion-wanderlust-contenedor {
+	/*background: linear-gradient(45deg, #a6a4cc 0%, rgb(206 215 228 / 25%) 51%);*/
+	/*gradiente blanco y gris: background: linear-gradient(45deg, #848484 0%, rgb(251 251 255) 51%);*/
+	/*gradiente blanco y negro: background: linear-gradient(45deg, #000000 0%, rgb(251 251 255) 51%);*/
+	padding: 100px;
+}
+
+
+.seccion-wanderlust {
+	padding: : 500px;
+	/*margin: 75px;*/
+	border-top-style: groove;
+	padding-top: 30px;
+	/*gradiente blanco y negro: background: linear-gradient(45deg, #2c2c2d 0%, rgb(251 251 255) 51%);*/
+	/*gradiente blanco y gris: background: linear-gradient(45deg, #9a9a9a 0%, rgb(251 251 255) 51%);*/
+	/*background: linear-gradient(45deg, #a6a4cc 0%, rgb(206 215 228 / 25%) 51%);*/
+	/*background: linear-gradient(45deg, #b8b7d6 0%, rgb(242 244 248) 51%);*/
+}
+
+.seccion-wanderlust h2{
+	padding: 10px;
+	padding-left: 15px;
+	margin-right: 50px;
+	margin-left: 50px;
+	color: white;
+}
+
+.seccion-wanderlust h3{
+	color: white;
+}
+.seccion-wanderlust p{
+	color: white;
+}
+.seccion-fotos {
+
+	margin: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.foto {
+	width: 500px;
+
+}
+
+#foto1 {
+	width: 500px;
+	border-style: ridge;
+	padding: 20px;
+
+}
+
+#foto2 {
+	width: 500px;
+	border-style: ridge;
+	padding: 20px;
+}
+
+#foto3 {
+	width: 500px;
+	border-style: ridge;
+	padding: 20px;
+}
+
+.titulos {
+	margin-top: 10px;
+}
