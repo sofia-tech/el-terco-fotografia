@@ -1,12 +1,13 @@
 
 
 body {
-	background-image: url(imagenes/fondos/fondo2.jpg);
-	/*la mejor es fondo2
+	background-image: url(imagenes/fondos/fondo16.jpg);
+	/*la mejor es fondo2 - fondo14 - fondo16 - fondo17
 	foto4-gratis--->https://www.pexels.com/es-es/foto/vista-panoramica-de-las-montanas-rocosas-durante-la-noche-1624438/
 	foto5-gratis--->https://www.pexels.com/es-es/foto/madera-modelo-textura-marron-326311/
 	fondo6-gratis--->https://www.pexels.com/es-es/foto/universo-azul-956981/*/
-	
+	background-repeat: round;
+
 	/*background-size: 100% 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -23,12 +24,13 @@ body {
 	background-repeat: no-repeat;
 	max-width: 100%;
 	height: auto;
-	/*background: linear-gradient(45deg, #a6a4cc 0%, rgb(206 215 228 / 25%) 51%);*/
+	box-shadow: 0 0 15px #ddd;
+	background: linear-gradient(45deg, #a6a4cc 0%, rgb(206 215 228 / 25%) 51%);*/
 }
 
 .banner-emiliano h1 {
 	color: white;
-	text-shadow: 3px 3px 2px black;
+	text-shadow: 3px 3px 2px #a52828;
 	/*text-shadow: 3px 3px 2px red;*/
 }
 
@@ -36,6 +38,7 @@ body {
 	color: white;
 	text-shadow: 4px 4px 2px black;
 	/*text-shadow: 3px 3px 2px red;*/
+
 }
 
 .seccion-wanderlust-contenedor {
@@ -43,6 +46,9 @@ body {
 	/*gradiente blanco y gris: background: linear-gradient(45deg, #848484 0%, rgb(251 251 255) 51%);*/
 	/*gradiente blanco y negro: background: linear-gradient(45deg, #000000 0%, rgb(251 251 255) 51%);*/
 	padding: 100px;
+	/*border-radius: 10px;*/
+
+	
 }
 
 
@@ -106,4 +112,25 @@ body {
 
 .titulos {
 	margin-top: 10px;
+}
+
+.seccion-sobremi-contenedor {
+
+	padding: 1px 300px 50px 300px;
+	color: white;
+}
+
+#titulo-sobremi {
+
+	margin-top: 50px;
+}
+
+.seccion-sobremi {
+	border-top-style: groove;
+}
+
+.volver-inicio {
+	float: right;
+	position: fixed;
+	bottom: 0;
 }
