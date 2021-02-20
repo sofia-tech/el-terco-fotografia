@@ -1,7 +1,7 @@
 
 
 body {
-	background-image: url(imagenes/fondos/fondo16.jpg);
+	background-image: url(imagenes/fondos/fondo14.jpg);
 	/*la mejor es fondo2 - fondo14 - fondo16 - fondo17
 	foto4-gratis--->https://www.pexels.com/es-es/foto/vista-panoramica-de-las-montanas-rocosas-durante-la-noche-1624438/
 	foto5-gratis--->https://www.pexels.com/es-es/foto/madera-modelo-textura-marron-326311/
@@ -13,6 +13,11 @@ body {
 	background-repeat: no-repeat;
 	max-width: 100%;*/
 }
+/*
+#barra-navegacion {
+	position: fixed;
+	width: 100%;
+}*/
 
 .banner-emiliano {
 	text-align: center;
@@ -31,6 +36,7 @@ body {
 .banner-emiliano h1 {
 	color: white;
 	text-shadow: 3px 3px 2px #a52828;
+	/*#181d35*/
 	/*text-shadow: 3px 3px 2px red;*/
 }
 
@@ -71,6 +77,11 @@ body {
 	color: white;
 }
 
+.seccion-wanderlust h2:hover {
+	text-shadow: 2px 2px 3px grey;
+
+}
+
 .seccion-wanderlust h3{
 	color: white;
 }
@@ -95,7 +106,12 @@ body {
 	width: 500px;
 	border-style: ridge;
 	padding: 20px;
+}
 
+#foto1:hover {
+	border-color: grey;
+	border-width: thick;
+	/*width: 502px;*/
 }
 
 #foto2 {
@@ -104,12 +120,23 @@ body {
 	padding: 20px;
 }
 
+#foto2:hover {
+	border-color: grey;
+	border-width: thick;
+	/*width: 502px;*/
+}
+
 #foto3 {
 	width: 500px;
 	border-style: ridge;
 	padding: 20px;
 }
 
+#foto3:hover {
+	border-color: grey;
+	border-width: thick;
+	/*width: 502px;*/
+}
 .titulos {
 	margin-top: 10px;
 }
@@ -133,4 +160,12 @@ body {
 	float: right;
 	position: fixed;
 	bottom: 0;
+	right: 0;
+	box-shadow: -2 -2 3px white;
+	}
+
+#inicio {
+	border-radius: 5px;
+	
+
 }
