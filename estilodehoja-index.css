@@ -1,12 +1,16 @@
 
 
 body {
-	background-image: url(imagenes/fondos/fondo14.jpg);
+	margin:0;
+	font-family: 'Work Sans', sans-serif;
+	/*font-family: 'Quattrocento Sans', sans-serif;*/
+	background-image: linear-gradient(rgb(255 255 255 / 70%), rgba(0,0,0,0.7)),url(imagenes/fondos/fondo14.jpg);
 	/*la mejor es fondo2 - fondo14 - fondo16 - fondo17
 	foto4-gratis--->https://www.pexels.com/es-es/foto/vista-panoramica-de-las-montanas-rocosas-durante-la-noche-1624438/
 	foto5-gratis--->https://www.pexels.com/es-es/foto/madera-modelo-textura-marron-326311/
 	fondo6-gratis--->https://www.pexels.com/es-es/foto/universo-azul-956981/*/
 	background-repeat: round;
+
 
 	/*background-size: 100% 100%;
 	background-size: cover;
@@ -21,7 +25,7 @@ body {
 
 .banner-emiliano {
 	text-align: center;
-	padding-top: 75px;
+	padding-top: 50px;
 	padding-bottom: 30px;
 	/*background-image: url(banner4.jpg);
 	background-size: 100% 100%;
@@ -68,11 +72,14 @@ body {
 	/*padding: :500px;
 	/*margin: 75px;*/
 	border-top-style: groove;
+	border-color: white;
 	padding-top: 30px;
 	/*gradiente blanco y negro: background: linear-gradient(45deg, #2c2c2d 0%, rgb(251 251 255) 51%);*/
 	/*gradiente blanco y gris: background: linear-gradient(45deg, #9a9a9a 0%, rgb(251 251 255) 51%);*/
 	/*background: linear-gradient(45deg, #a6a4cc 0%, rgb(206 215 228 / 25%) 51%);*/
-	/*background: linear-gradient(45deg, #b8b7d6 0%, rgb(242 244 248) 51%);*/
+	background: linear-gradient(37deg, #1d1d1d 0%, rgb(87 89 90) 60%);
+	/*background-color: black;*/
+	box-shadow: 0 0 15px rgb(0 0 0);
 }
 
 .seccion-wanderlust h2{
@@ -86,6 +93,7 @@ body {
 .seccion-wanderlust h2:hover {
 	text-shadow: 2px 2px 3px grey;
 
+
 }
 
 .seccion-wanderlust h3{
@@ -93,12 +101,12 @@ body {
 }
 .seccion-wanderlust p{
 	color: white;
-	
-	background-color: black;
+	padding-left: 20px;
+	background-color: transparent;
 
 }
 .seccion-fotos {
-
+	background-color: transparent;
 	margin: 50px;
 	display: flex;
 	flex-direction: row;
@@ -114,13 +122,16 @@ body {
 	width: 500px;
 	margin: 10px;
 
+
 }
 
 #foto1 {
-	width: 500px;
+	width: 450px;
 	border-style: ridge;
 	padding: 20px;
-	transition: width 1s, padding 1s;
+	/*background-color: black;*/
+	box-shadow: 0 0 15px rgb(255 255 255);
+	transition: width 0.5s, padding 0.5s;
 }
 
 #foto1:hover {
@@ -128,50 +139,56 @@ body {
 	/*border-width: thick;*/
 	/*width: 505px;*/
 	/*filter: opacity(.5); */
-	width: 510px;
-	padding: 10px;
+	width: 462px;
+	padding: 16px;
 
 }
 
 #foto2 {
-	width: 500px;
+	width: 450px;
 	border-style: ridge;
 	padding: 20px;
-	transition: width 1s, padding 1s;
+		/*background-color: black;*/
+	box-shadow: 0 0 15px rgb(255 255 255);
+	transition: width 0.5s, padding 0.5s;
 }
 
 #foto2:hover {
 	border-color: grey;
 	/*border-width: thick;*/
-	width: 510px;
-	padding: 10px;
+	width: 462px;
+	padding: 16px;
 }
 
 #foto3 {
-	width: 500px;
+	width: 450px;
 	border-style: ridge;
 	padding: 20px;
-	transition: width 1s, padding 1s;
+		/*background-color: black;*/
+	box-shadow: 0 0 15px rgb(255 255 255);
+	transition: width 0.5s, padding 0.5s;
 }
 
 #foto3:hover {
 	border-color: grey;
 	/*border-width: thick;*/
-	width: 510px;
-	padding: 10px;
+	width: 462px;
+	padding: 16px;
 }
 #foto4 {
-	width: 500px;
+	width: 450px;
 	border-style: ridge;
 	padding: 20px;
-	transition: width 1s, padding 1s;
+		/*background-color: black;*/
+	box-shadow: 0 0 15px rgb(255 255 255);
+	transition: width 0.5s, padding 0.5s;
 }
 
 #foto4:hover {
 	border-color: grey;
 	/*border-width: thick;*/
-	width: 510px;
-	padding: 10px;
+	width: 462px;
+	padding: 16px;
 }
 
 .titulos {
@@ -192,6 +209,8 @@ body {
 .seccion-sobremi {
 	border-top-style: groove;
 	background-color: black;
+	padding: 30px;
+	box-shadow: 0 0 15px rgb(255 255 255);
 }
 
 .volver-inicio {
