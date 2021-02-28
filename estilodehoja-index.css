@@ -21,16 +21,22 @@ body {
 
 .banner-emiliano {
 	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 1px;
-	background-image: url(banner4.jpg);
+	padding-top: 75px;
+	padding-bottom: 30px;
+	/*background-image: url(banner4.jpg);
 	background-size: 100% 100%;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 	max-width: 100%;
 	height: auto;
 	box-shadow: 0 0 15px #ddd;
-	background: linear-gradient(45deg, #a6a4cc 0%, rgb(206 215 228 / 25%) 51%);*/
+	/*background: linear-gradient(45deg, #a6a4cc 0%, rgb(0 0 0, /*25%) 51%);*/
+	background-color: black;
+	transition: background-color .5s ease-in-out;
+}
+
+.banner-emiliano:hover {
+	background-color: rgb(74 73 73);
 }
 
 .banner-emiliano h1 {
@@ -59,7 +65,7 @@ body {
 
 
 .seccion-wanderlust {
-	padding: : 500px;
+	/*padding: :500px;
 	/*margin: 75px;*/
 	border-top-style: groove;
 	padding-top: 30px;
@@ -87,6 +93,9 @@ body {
 }
 .seccion-wanderlust p{
 	color: white;
+	
+	background-color: black;
+
 }
 .seccion-fotos {
 
@@ -97,8 +106,13 @@ body {
 	justify-content: space-between;
 }
 
+.seccion-fotos a {
+	color: white;
+}
+
 .foto {
 	width: 500px;
+	margin: 10px;
 
 }
 
@@ -106,36 +120,44 @@ body {
 	width: 500px;
 	border-style: ridge;
 	padding: 20px;
+	transition: width 1s, /*filter 1s*/ padding 1s;
 }
 
 #foto1:hover {
 	border-color: grey;
-	border-width: thick;
-	/*width: 502px;*/
+	/*border-width: thick;*/
+	/*width: 505px;*/
+	/*filter: opacity(.5); */
+	padding: 10px;
+
 }
 
 #foto2 {
 	width: 500px;
 	border-style: ridge;
 	padding: 20px;
+	transition: width 1s, padding 1s;
 }
 
 #foto2:hover {
 	border-color: grey;
-	border-width: thick;
-	/*width: 502px;*/
+	/*border-width: thick;*/
+	width: 510px;
+	padding: 10px;
 }
 
 #foto3 {
 	width: 500px;
 	border-style: ridge;
 	padding: 20px;
+	transition: width 1s, padding 1s;
 }
 
 #foto3:hover {
 	border-color: grey;
-	border-width: thick;
-	/*width: 502px;*/
+	/*border-width: thick;*/
+	width: 510px;
+	padding: 10px;
 }
 .titulos {
 	margin-top: 10px;
@@ -154,18 +176,21 @@ body {
 
 .seccion-sobremi {
 	border-top-style: groove;
+	background-color: black;
 }
 
 .volver-inicio {
 	float: right;
 	position: fixed;
-	bottom: 0;
-	right: 0;
+	bottom: 10px;
+	right: 20px;
 	box-shadow: -2 -2 3px white;
 	}
 
 #inicio {
 	border-radius: 5px;
-	
-
+	width: 50px;
+	height: 40px;
 }
+
+
