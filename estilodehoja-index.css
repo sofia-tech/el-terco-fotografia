@@ -120,7 +120,7 @@ body {
 	width: 500px;
 	border-style: ridge;
 	padding: 20px;
-	transition: width 1s, /*filter 1s*/ padding 1s;
+	transition: width 1s, padding 1s;
 }
 
 #foto1:hover {
@@ -128,6 +128,7 @@ body {
 	/*border-width: thick;*/
 	/*width: 505px;*/
 	/*filter: opacity(.5); */
+	width: 510px;
 	padding: 10px;
 
 }
@@ -159,6 +160,20 @@ body {
 	width: 510px;
 	padding: 10px;
 }
+#foto4 {
+	width: 500px;
+	border-style: ridge;
+	padding: 20px;
+	transition: width 1s, padding 1s;
+}
+
+#foto4:hover {
+	border-color: grey;
+	/*border-width: thick;*/
+	width: 510px;
+	padding: 10px;
+}
+
 .titulos {
 	margin-top: 10px;
 }
